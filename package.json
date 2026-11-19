@@ -1,0 +1,15 @@
+{
+  "name": "tableaux",
+  "version": "1.0.0",
+  "description": "Quadros de Young padrao montados um a um, contados pelos cantos e pela formula dos ganchos, com involucoes e n! como juizes, em Node puro",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test testes/*.test.js",
+    "medir": "node ferramentas/medidor.js"
+  },
+  "license": "MIT",
+  "private": false
+}
